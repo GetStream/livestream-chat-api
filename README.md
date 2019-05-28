@@ -1,6 +1,6 @@
 # Stream Chat Boilerplate API
 
-> _This API is not meant for production as there is no auth in place. Please use carefully in beta and development environments only!_
+> **_This API is not meant for production as there is no auth in place. Please use carefully in beta and development environments only!_**
 
 ## Getting Started
 
