@@ -16,7 +16,7 @@ exports.token = async (req, res) => {
                 .split('@')[0]
                 .split(':');
         } else {
-            apiKey = process.STREAM_API_KEY;
+            apiKey = process.env.STREAM_API_KEY;
             apiSecret = process.env.STREAM_API_SECRET;
         }
 
