@@ -25,6 +25,7 @@ exports.token = async (req, res) => {
         const user = Object.assign({}, data, {
             id: md5(data.username),
             role: 'admin',
+            name: data.username,
             image: `https://robohash.org/${data.username}`,
         });
         const token = client.createToken(user.id);
